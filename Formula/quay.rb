@@ -1,25 +1,25 @@
 class Quay < Formula
-  desc "Cross-platform CLI + TUI for sharing AI agent skills (SKILL.md format) between people and orgs via any git host."
+  desc "Cross-platform CLI for sharing AI agent skills (SKILL.md format) between people and orgs via any git host."
   homepage "https://github.com/evgeniiPerov/quay"
-  version "0.8.1"
+  version "0.9.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.8.1/quay-aarch64-apple-darwin.tar.xz"
-      sha256 "fbe6c362166a1d094baeb2937c9052dd759a553e38bfe15a5511b5b8d1690fbb"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.9.0/quay-aarch64-apple-darwin.tar.xz"
+      sha256 "753e47e39ee897706922e1d0eee8bda85a15df5e6be4748b23402aafacfa6115"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.8.1/quay-x86_64-apple-darwin.tar.xz"
-      sha256 "c85e64d2a1581931c9c1bef09ea2b88d2633a31b108fbe3a3c2c80c9ac9792d1"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.9.0/quay-x86_64-apple-darwin.tar.xz"
+      sha256 "c73a0a237974ea7be2f11b500d10207f8a8fc5af6a48f1a060311564ea15728e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.8.1/quay-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "eec7e455f8f6e548f4b19e343318d975766fe27edac24366f33053325921285a"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.9.0/quay-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "7894ad6afa4f7d0253bebeff4bc91652813538a1c0b30ca20468121db6ca1784"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.8.1/quay-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5bf9a0cbfa104a8fe2ee9fdab877d58d8d08074e106be7b07624f40539ed10bf"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.9.0/quay-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a2369a72b90d508acfa50ccbfbddfb193636b21415ad867ba79af9382f7cfdc5"
     end
   end
   license "MIT"
