@@ -1,25 +1,25 @@
 class Quay < Formula
   desc "Cross-platform CLI for sharing AI agent skills (SKILL.md format) between people and orgs via any git host."
   homepage "https://github.com/evgeniiPerov/quay"
-  version "0.15.0"
+  version "0.15.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.0/quay-aarch64-apple-darwin.tar.xz"
-      sha256 "fb1dbab0be0763a195d3f83d0fc9f7c7d2364615a193c957606acb414cc7f004"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.1/quay-aarch64-apple-darwin.tar.xz"
+      sha256 "95589a150c895ba3bb3f829d791a282d3043e29e24e97a2372c46af290c287a0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.0/quay-x86_64-apple-darwin.tar.xz"
-      sha256 "8fd90ad3ea40ab92f4ceb59c5b736a4419fa8049f02f1892e084151ebb43db90"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.1/quay-x86_64-apple-darwin.tar.xz"
+      sha256 "df25c3bc90827144c9e0acb59f792d527375b7ac8b402340a2a7518321b9860b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.0/quay-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "76ba3e6c6331fb52eaab0c39b824c896748e9fe67da6f6198a59317a60e91689"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.1/quay-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "adda129e209ac9d8093c45f3bc97f4572478cc676bd65909d349889283a97e1c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.0/quay-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ec4b6e5150da58d2ef928b97302be28f9b3db2a852490aa825fbc408d3afe4c8"
+      url "https://github.com/evgeniiPerov/quay/releases/download/v0.15.1/quay-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2af97a0ef6ee8c41599d06b6f12c83d37f1df83e298e6b91ac9d8c99815e3c1c"
     end
   end
   license "MIT"
